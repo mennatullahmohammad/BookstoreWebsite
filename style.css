@@ -1,0 +1,195 @@
+header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 1rem;
+    }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.nav-sticky {
+    position: sticky; top: 0;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    background-color: cadetblue;
+    padding: 1rem;
+    justify-content: space-around;
+    color: white;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar li a:hover {
+    background-color: darkcyan;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    padding: 3rem;
+    align-items: center; 
+    background-color: darkslategray;
+    color: white;
+}
+
+.hero-text button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0a9e8c;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.history {
+    color: white;
+    background-color: rgb(13, 46, 26);
+    text-align: center;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.promo-banner1 {
+    background-color: purple;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    color: white;
+}
+
+.promo-banner1 button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.promo-banner2 {
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    color: black;
+}
+
+.promo-banner2 button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(13, 46, 26);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+
+form h1 {
+    color: black;
+}
+
+form input {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    min-width: 80px;
+}
+
+.catalogue {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 3rem;
+    align-items: center; 
+    border-color: white;
+}
+
+.book-profile img {
+    max-width: max-content;
+    height: max-content;
+}
+
+.book-profile p {
+    size: 8px;
+    line-height: 15px;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
