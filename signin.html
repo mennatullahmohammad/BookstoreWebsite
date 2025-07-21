@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <form>
+     <form onsubmit="return validatesigninform(event)">
         <h1>Sign in to your account</h1>
         <p><label>Email Address: <input type="email"></label></p>
-        <p><label>Username: <input type="text"></label></p>
-        <p><label>Password: <input type="text"></label></p>
+        <p><label>Username: <input type="text" id="username" name="username"></label></p>
+        <p><label>Password: <input type="text" id="password" name="password"></label></p>
         <p><label>Remember me <input type="checkbox"></label></p>
         <p><input type="submit"></p>
         <p><a>Forgot Your Password?</a></p>
@@ -21,5 +21,6 @@
             Phone number: +123456789<br>
             Location: Lost in dreams
         </p></footer>
+        <script src="script.js"></script>
 </body>
 </html>
