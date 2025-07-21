@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
+
 <body>
      <header>
     <nav class="nav-sticky">
@@ -32,13 +33,19 @@
 </p>
 </section>
 
-<form>
-    <p><label>Name: <input type="text"></label></p>
-    <p><label>Email: <input type="email"></label></p>
-    <p><label>Address: <input type="text"></label></p>
-    <p><label>Cash on delivery<input type="radio"></label></p>
-    <p><label>Card<input type="radio"></label></p>
-    <p><input type="submit"></p>
+<form onsubmit="return validatePurchaseForm(event)">
+    <p><label>Name: <input type="text" id="name" name="name"></label></p>
+    <p><label>Email: <input type="email" id="email" name="email"></label></p>
+    <p><label>Address: <input type="text" id="address" name="address"></label></p>
+
+    <p>
+        Payment Method:
+        <label><input type="radio" name="payment" value="cash"> Cash on delivery</label>
+        <label><input type="radio" name="payment" value="card"> Card</label>
+    </p>
+
+    <p><input type="submit" value="Place Order"></p>
 </form>
+ <script src="script.js"></script>
 </body>
 </html>
